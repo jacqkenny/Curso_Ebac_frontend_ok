@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+form {
+    background-color: #f0eef3;
+    padding: 280px 0;
+    color: #090909;
+    display: flex;
+    border-style:  16px solid #070707;
+    justify-content: center;
+    text-transform:none;
+    font-style: normal;
+    text-align:justify;
+}
+
+form input, button{
+    padding-bottom: 16 0;
+    justify-content:center;
+    text-transform:none;
+    font-style: normal;
+    text-align:justify;
+    display:list-item;
+}
+
+button{
+    cursor: pointer;
+}
+
+li {
+    text-decoration: line-through;
+}
