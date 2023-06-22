@@ -4,8 +4,7 @@ $('form').on('submit',function(e) {
     const novoItem = $('<li></li>');
 
     $(`
-        <div class="overlay-text-link">
-        <a href="${nomeDaTarefa}">nome da tarefa</a>
+        <a href="${nomeDaTarefa}">Nome da tarefa</a>
     </div>
 `).appendTo(novoItem);
 $(novoItem).appendTo('ul');

@@ -30,6 +30,7 @@ button{
     cursor: pointer;
 }
 
-li {
+ul li {
     text-decoration: line-through;
+    flex-wrap: wrap;
 }
