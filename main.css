@@ -40,8 +40,12 @@ button{
     cursor: pointer;
 }
 
-ul li {
-    text-decoration: line-through;
+li {
     flex-wrap: wrap;
     text-align: center;
+}
+
+li .concluido {
+    text-decoration: line-through;
+    cursor: pointer;
 }
