@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Tarefas</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https:fonts.googleapis.com/css2? family=roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-</head>
-<body>
-    <reader>
-        <form>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lista de Tarefas</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https:fonts.googleapis.com/css2? family=roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <section>
             <div class="container">
-                <h1>Lista de tarefas</h1>
+                <h1>Formulário de cadastro</h1>
+                <form>
+                    <div>
+                        <label for="nome completo">Nome completo:</label>
+                        <input type="text" id="nome">
+                    </div>
+                    <div>
+                        <label for="E-mail">E-mail:</label>
+                        <input type="email" id="E-mail">
+                    </div>
+                    <div>
+                        <label for="Telefone">Telefone:</label>
+                        <input type="tel" id="Telefone">
+                    </div>
+                    <div>
+                        <label for="CPF">CPF:</label>
+                        <input type="CPF" id="CPF">
+                    </div>
+                    <div>
+                        <label for="Endereço completo">Endereço completo:</label>
+                        <input type="Endereço completo" id="Endereço completo">
+                    </div>
+                    <div>
+                        <label for="CEP">CEP:</label>
+                        <input type="CEP" id="CEP">
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
             </div>
-            <input type="text" id="Nome-tarefa" required placeholder="Nome da tarefa" />
-            <button type="submit">Cadastrar</button>
-        </form>
-        <ul>
-            <li>
-                    <a href="nomeDaTarefa" alt="Nome da tarefa" ></a>
-                    <class="concluido" alt="concluido" ></class>
-            </li>
-        </ul>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="main.js"></script>
-        <script src="https://api.jquery.com/on/"></script>
-        <script src=" https://api.jquery.com/addClass/"></script>
-    </reader>
-    
-</body>
+        </section>
+    </body>
 </html>
