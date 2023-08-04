@@ -7,13 +7,12 @@
 }
 
 h1 {
-    
     background-color: #f0eef3;
     padding: 50px;
     padding-block: 50px;
     justify: content 50px;
     font-style: normal;
-    text-align:none;
+    text-align:center;
 }
 
 .container {
@@ -30,12 +29,12 @@ h1 {
     padding-top: 16px;
     font-weight:bold;
     display: block;
-    justify-content:none;
+    justify-content:center;
 }
 
 .form-campo input, 
 .form-campo CEP {
-    width: 100%;
+    width: 200%;
     display: block;
     padding: 8px;
 }
