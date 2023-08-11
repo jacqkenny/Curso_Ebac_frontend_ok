@@ -40,12 +40,16 @@ button{
     cursor: pointer;
 }
 
+
+.checked {
+    text-decoration: line-troungh;
+    cursor: pointer;
+}
+
 li {
     flex-wrap: wrap;
     text-align: center;
-}
-
-li .concluido {
-    text-decoration: line-through;
+    background: #eee;
+    border-radius: 50px;
     cursor: pointer;
 }
