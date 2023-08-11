@@ -7,5 +7,11 @@ $('form').on('submit',function(e) {
     </a>
 `).appendTo(novoItem);
 $(novoItem).appendTo('ul');
-$('#Nome-tarefa').val('')
+$('#Nome-tarefa').val('');
+$('ul').on('click','li,checked',function(){
+$('.checked').main.css('text-decoration', 'line-through');
 })
+
+
+})
+
