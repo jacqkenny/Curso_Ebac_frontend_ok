@@ -42,7 +42,7 @@ button{
 
 
 .checked {
-    text-decoration: line-troungh;
+    text-decoration: line-through;
     cursor: pointer;
 }
 
