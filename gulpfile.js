@@ -2,7 +2,7 @@ const gulp = require('gulp');
 const sass = require('gulp-sass')(require('sass'));
 
 function compilaSass() {
-    return gulp.src('./source/styles/main.scss')
+    return gulp.src ('./source/styles/main.scss')
     .pipe(sass())
     .pipe(gulp.dest('./build/styles'));
 }
@@ -26,6 +26,6 @@ function dizTchau() {
     console.log("Tchau Gulp");
 }
 
-exports.default = gulp.parallel(funcaoPadrao, dizOi);
-exports.dizOi = dizOi;
-exports.sass = compilaSass;
+exports.default = function() {
+    gulp.watch('./source/styles/*.scss', {ignoreInitial: false }, gulp.series(compilaSass));
+}
