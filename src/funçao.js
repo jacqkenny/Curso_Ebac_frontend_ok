@@ -1,18 +1,19 @@
 "use strict";
-class Pessoa {
-    constructor(nome) {
-        this.nome = "kenny";
-    }
-    dizOla() {
-        return this.nome;
-    }
+function multiplicação(num1, num2) {
+    const resulted = num1 * num2;
+    console.log(`O resultado da multiplicação entre ${num1} e ${num2} é ${resulted}`);
+    return resulted;
 }
-function calculaArea() {
-    if (10 * 12) {
-        return 'dez vezes doze';
-    }
-    else {
-        return 120;
-    }
+function saudação(nome) {
+    const mensagem = `Olá ${nome}!`;
+    console.log(mensagem);
+    return mensagem;
 }
-const resultadoDaArea = calculaArea();
+function multiplicar(a, b, c) {
+    return a * b * c;
+}
+function cumprimentar(nome) {
+    return `Olá ${nome}`;
+}
+console.log(multiplicar(10, 20, 25));
+console.log(cumprimentar("Kenny"));
