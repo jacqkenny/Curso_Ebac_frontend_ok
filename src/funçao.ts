@@ -5,7 +5,7 @@ function multiplicação(num1: number, num2: number): number {
 }
 
 function saudação(nome: string): string {
-    const mensagem = `Olá ${nome}!`;
+    const mensagem = `diz ola ${nome}!`;
     console.log(mensagem);
     return mensagem;
 }
@@ -14,9 +14,9 @@ function multiplicar(a: number, b: number, c: number): number {
     return a * b * c;
 }
 
-function cumprimentar(nome: string): string {
-    return `Olá ${nome}`;
+function dizOla(nome: string): string {
+    return `${nome} diz oi`;
 }
 
 console.log(multiplicar(10, 20, 25));
-console.log(cumprimentar("Kenny"));
+console.log(dizOla("Kenny"));
